@@ -1,0 +1,29 @@
+button {  
+  color: black;  
+
+    &:focus { color: red; }  
+  }  
+  // used & to specify that the parent (button) selector should be inserted here
+
+  //css output:
+  // button {
+  //   color: black; }
+  //   button :focus {
+  //     color: red; }
+
+  // #main {  
+  //   color: black;  
+  //   a {  
+  //     font-weight: bold;  
+  //     &:hover { color: red; }  
+  //   }  
+  // }
+
+  // example in the execise here the css traspilation would be:
+
+  // #main {  
+  //   color: black; }  
+  //   #main a {  
+  //     font-weight: bold; }  
+  //     #main a:hover {  
+  //       color: red; }

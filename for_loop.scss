@@ -1,0 +1,24 @@
+@for $h from 1 through 6 {
+  h#{$h} {font-size: 24px - (3px * $h)};
+}
+
+// for statement sets variable ($h) from start (1) through end (6) and then a rule for each occurance
+// output:
+// "h1 {"                             
+//   "  font-size: 21px; }"
+//   ""                    
+//   "h2 {"                
+//   "  font-size: 18px; }"
+//   ""                    
+//   "h3 {"                
+//   "  font-size: 15px; }"
+//   ""                    
+//   "h4 {"                
+//   "  font-size: 12px; }"
+//   ""                    
+//   "h5 {"                
+//   "  font-size: 9px; }" 
+//   ""                    
+//   "h6 {"                
+//   "  font-size: 6px; }" 
+//   ""                                  

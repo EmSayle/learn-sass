@@ -1,0 +1,9 @@
+@each $big-cat in cheetah, puma, jaguar, panther, tiger, leopard {
+  .#{$big-cat}-picture {
+    padding: 3em;
+  }
+}
+
+// Sass script that generates a rule for selectors
+//The @each rule sets $var to each item in the list or map, then outputs the  
+// styles it contains using that value of $var
